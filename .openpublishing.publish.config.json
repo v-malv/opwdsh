@@ -1,16 +1,21 @@
 {
   "build_entry_point": "",
+  "need_generate_pdf": false,
+  "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
       "docset_name": "opwdsh",
       "build_output_subfolder": "opwdsh",
       "locale": "es-es",
-      "version": 0,
       "open_to_public_contributors": false,
       "type_mapping": {
         "Conceptual": "Content"
-      }
+      },
+      "version": 0
     }
   ],
-  "notification_subscribers": []
+  "notification_subscribers": [],
+  "continue_with_document_error": true,
+  "skip_source_output_uploading": false,
+  "need_generate_pdf_url_template": false
 }
